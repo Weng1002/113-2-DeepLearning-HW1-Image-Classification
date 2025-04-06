@@ -24,6 +24,7 @@
 ![最終成績](最終成績.png)
 
 > Public 準確率在 0.845302 ，Private 準確率在  (越高越精確)
+
 > 全班共約有55人，private排名4名
 
  ![最終排名](最終成績_public.png)
@@ -31,6 +32,8 @@
 
 ## 模型介紹
 參考了**ResNet34**、**ResNet50**、**EfficientNet**的架構，來實作CNN框架。
+
+目前影像分類相對厲害的：Xception、InceptionV3、EfficientNet、ResNet152V2 都是目前不錯的CNN架構。
 
 ## 安裝依賴
 請使用以下指令安裝本專案所需的依賴套件：
@@ -40,3 +43,10 @@ pip install torch torchvision scikit-learn matplotlib tqdm
 ---
 
 ## 流程
+1.資料前處理
+
+2.構建CNN架構
+
+3.訓練階段
+
+4.推理階段
