@@ -28,7 +28,7 @@
 > 全班共約有55人，private排名4名
 
  ![最終排名](最終成績_public.png)
-> public 排名 名
+> public 排名 4 名
 
 ## 模型介紹
 參考了**ResNet34**、**ResNet50**、**EfficientNet**的架構，來實作CNN框架。
